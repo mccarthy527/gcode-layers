@@ -1,0 +1,38 @@
+{
+  "name": "gcode-layers",
+  "version": "0.0.1",
+  "description": "organizes line segments into layers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+	
+  },
+  "devDependencies": {
+	  "brfs": "0.0.9"
+  },
+  "scripts": {
+    "test": "tape test/test.js"
+  },
+  "browserify": {
+	"transform": "brfs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mccarthy527/gcode-layers.git"
+  },
+  "keywords": [
+    "gcode",
+    "line",
+    "segment",
+	"layers",
+    "FDM",
+    "reprap"
+  ],
+  "author": "Brian McCarthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mccarthy527/gcode-layers/issues"
+  }
+}
