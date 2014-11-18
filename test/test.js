@@ -11,3 +11,5 @@ var fileContent = data.toString()
 var states = gc(fileContent)
 var lines = sl(states)
 var layers = ll(lines)
+
+console.log(layers)
