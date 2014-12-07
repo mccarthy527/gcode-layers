@@ -10,7 +10,7 @@ function lines2layers(lines)
 	for(var i=0; i<lines.lines.length; i++)
 	{
 		var z0,z1;
-		if(lines.lines[i] != undefined && lines.extruded[i] == 1) //check to see if this is an extrusion move
+		if(lines.lines[i] != undefined && lines.extruded[i] > 0) //check to see if this is an extrusion move
 		{
 			z0 = ((lines.lines[i])[0])[2] //z coordinate of startpoint of line segment
 			z1 = ((lines.lines[i])[1])[2] // z coordinate of endpoint
